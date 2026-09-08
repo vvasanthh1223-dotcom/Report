@@ -23,6 +23,9 @@ public class Hooks {
 		url = ConfigReader.getProperty("url");
 		browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest()
 				.getParameter("browser");
+		if(browser == null || browser.isBlank()) {
+			browser = System.getProperty("browser", "chrome");
+		}
 		
 		System.out.println("Browser: " + browser);
 		System.out.println("Url: " + url);

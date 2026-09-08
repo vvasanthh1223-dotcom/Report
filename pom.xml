@@ -59,8 +59,6 @@
 			<version>2.35.4</version>
 		</dependency>
 
-		
-
 
 	</dependencies>
 
@@ -100,7 +98,13 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.3.0</version>
-					
+
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
