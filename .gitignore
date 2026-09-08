@@ -1,0 +1,15 @@
+#Eclipse
+.classpath
+.project
+.settings/
+
+#Maven
+target/
+
+#Allure
+.allure/
+allure/
+Allure/
+
+#Test output
+test-output/
