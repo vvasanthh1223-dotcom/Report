@@ -9,7 +9,4 @@ Feature: User Login
 
     Examples:
       | username      | password     | result |
-      # | standard_user |               | Invalid |
-      # |               | secret_sauce  | Invalid |
-      # | secret_sauce  | standard_user | Invalid |
       | standard_user | secret_sauce | Valid  |
