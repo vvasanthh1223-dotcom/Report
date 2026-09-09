@@ -99,11 +99,13 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.3.0</version>
 
-					<configuration>
+					<!-- 
+				<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
+			-->
 
 				</plugin>
 				<plugin>
