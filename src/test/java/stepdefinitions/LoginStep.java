@@ -43,6 +43,7 @@ public class LoginStep {
 	@When("the user clicks the login button")
 	public void the_user_clicks_the_login_button() {
 		loginPage.clickLogin();
+		System.out.println("poll scm run successfully");
 	}
 	@Then("login should be {string}")
 	public void login_should_be(String result) {
