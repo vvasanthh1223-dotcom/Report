@@ -6,6 +6,7 @@ pipeline {
 			steps {
 				bat 'mvn clean test'
 			//	bat 'mvn clean test -Dsurefire.suiteXmlFiles=testng.xml'
+			// run
 			}
 		}
 	}
